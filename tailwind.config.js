@@ -20,9 +20,6 @@ export default {
       'dark-blue-line': 'hsl(215, 32%, 27%)',
       white: 'hsl(0, 0%, 100%)'
     },
-    fontSize: {
-      regular: '18px'
-    },
     extend: {},
   },
   plugins: [],
