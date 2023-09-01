@@ -38,7 +38,7 @@
       </div>
 
       <!-- Creator callout -->
-      <div class="flex flex-row gap-4 pt-4 border-t-2 border-dark-blue-line">
+      <div class="flex flex-row gap-4 pt-4 border-t-2 border-dark-blue-line items-center">
         <img class="w-8 rounded-full border-2 border-white" src="./assets/img/image-avatar.png" alt="image-avatar">
         <p class="text-soft-blue">Creation of <span class="text-white hover:text-cyan hover:cursor-pointer">Jules
             Wyvern</span></p>
