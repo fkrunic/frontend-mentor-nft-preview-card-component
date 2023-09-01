@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Outfit';
+        src: url('./assets/fonts/Outfit-Light.woff2') format('woff2'),
+            url('./assets/fonts/Outfit-Light.woff') format('woff');
+        font-display: 'swap';
+        font-style: 'normal';
+        font-weight: 300;
+    }
+    @font-face {
+        font-family: 'Outfit';
+        src: url('./assets/fonts/Outfit-Regular.woff2') format('woff2'),
+            url('./assets/fonts/Outfit-Regular.woff') format('woff');
+        font-display: 'swap';
+        font-style: 'normal';
+        font-weight: 400;            
+    }
+    @font-face {
+        font-family: 'Outfit';
+        src: url('./assets/fonts/Outfit-SemiBold.woff2') format('woff2'),
+            url('./assets/fonts/Outfit-SemiBold.woff') format('woff');
+        font-display: 'swap';
+        font-style: 'normal';
+        font-weight: 600;             
+    }
+}
